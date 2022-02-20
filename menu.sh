@@ -17,7 +17,7 @@ var_hash=$(echo $pass_var | sha256sum)
 #echo "Hash value of password.txt is :  $var_hash"
 echo
 
-# coment: now hash the existing secret passwword file
+# comment: now hash the existing secret passwword file
 hashfile="secret.txt"
 my_var=$(cat "$hashfile")
 #echo " value of my variable is:  $my_var"
@@ -27,7 +27,7 @@ var_hash2=$(echo $my_var | sha256sum)
 #echo "1:  $var_hash"
 #echo "2:  $var_hash2"
 
-echo "Incorrect password ... "
+#echo "Incorrect password ... "
 echo
 
 

@@ -39,3 +39,5 @@ echo "Access Denied"
 exit 1
 
 fi
+
+exit 0

@@ -13,3 +13,5 @@ else
 echo "I counldn't find that folder"
 
 fi
+
+exit 0
