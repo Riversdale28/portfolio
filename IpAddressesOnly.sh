@@ -33,3 +33,5 @@ echo ""
 echo "Using awk, the output is: "
 awk '{print substr($0,0,30);}' IpFile.txt
 
+exit 0
+
